@@ -1,10 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from "./Navbar"
+import Main from "./Main"
+import Footer from "./Footer"
+import Login from "./Login"
 function App() {
   return (
     <div className="App">
-      <h1> Shop Ease Website</h1>
+{/*Create a Login Page */}
+      <Login />
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 }
