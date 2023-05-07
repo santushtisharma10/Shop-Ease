@@ -14,7 +14,7 @@ import img3 from "../../images/pexels-greta-hoffman-9705827.jpg";
 import img4 from  "../../images/pexels-gustavo-fring-4005031.jpg"
 
 const Image = styled("img")({
-  objectFit: "fill",
+  objectFit: "cover",
   width: "100%",
   height: "100%",
 });
@@ -28,7 +28,7 @@ function LeftWrapper() {
   ];
 
   return (
-    <div style={{ width: "40%", height: "100vh" }}>
+    <div style={{ width: "50%", height: "100vh" }}>
       <Swiper
         spaceBetween={30}
         autoplay={{
